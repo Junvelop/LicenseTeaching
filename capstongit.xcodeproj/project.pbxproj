@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47F3FB892BE9BB1100DD0D34 /* capstongitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F3FB882BE9BB1100DD0D34 /* capstongitApp.swift */; };
+		47F3FB8B2BE9BB1100DD0D34 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F3FB8A2BE9BB1100DD0D34 /* ContentView.swift */; };
+		47F3FB8D2BE9BB1200DD0D34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47F3FB8C2BE9BB1200DD0D34 /* Assets.xcassets */; };
+		47F3FB902BE9BB1200DD0D34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47F3FB8F2BE9BB1200DD0D34 /* Preview Assets.xcassets */; };
+		47F3FB9B2BE9BB1200DD0D34 /* capstongitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F3FB9A2BE9BB1200DD0D34 /* capstongitTests.swift */; };
+		47F3FBA52BE9BB1200DD0D34 /* capstongitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F3FBA42BE9BB1200DD0D34 /* capstongitUITests.swift */; };
+		47F3FBA72BE9BB1200DD0D34 /* capstongitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F3FBA62BE9BB1200DD0D34 /* capstongitUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47F3FB972BE9BB1200DD0D34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47F3FB7D2BE9BB1100DD0D34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47F3FB842BE9BB1100DD0D34;
+			remoteInfo = capstongit;
+		};
+		47F3FBA12BE9BB1200DD0D34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47F3FB7D2BE9BB1100DD0D34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47F3FB842BE9BB1100DD0D34;
+			remoteInfo = capstongit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47F3FB852BE9BB1100DD0D34 /* capstongit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = capstongit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F3FB882BE9BB1100DD0D34 /* capstongitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = capstongitApp.swift; sourceTree = "<group>"; };
+		47F3FB8A2BE9BB1100DD0D34 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		47F3FB8C2BE9BB1200DD0D34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47F3FB8F2BE9BB1200DD0D34 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		47F3FB912BE9BB1200DD0D34 /* capstongit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = capstongit.entitlements; sourceTree = "<group>"; };
+		47F3FB962BE9BB1200DD0D34 /* capstongitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = capstongitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F3FB9A2BE9BB1200DD0D34 /* capstongitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = capstongitTests.swift; sourceTree = "<group>"; };
+		47F3FBA02BE9BB1200DD0D34 /* capstongitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = capstongitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F3FBA42BE9BB1200DD0D34 /* capstongitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = capstongitUITests.swift; sourceTree = "<group>"; };
+		47F3FBA62BE9BB1200DD0D34 /* capstongitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = capstongitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47F3FB822BE9BB1100DD0D34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F3FB932BE9BB1200DD0D34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F3FB9D2BE9BB1200DD0D34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47F3FB7C2BE9BB1100DD0D34 = {
+			isa = PBXGroup;
+			children = (
+				47F3FB872BE9BB1100DD0D34 /* capstongit */,
+				47F3FB992BE9BB1200DD0D34 /* capstongitTests */,
+				47F3FBA32BE9BB1200DD0D34 /* capstongitUITests */,
+				47F3FB862BE9BB1100DD0D34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47F3FB862BE9BB1100DD0D34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47F3FB852BE9BB1100DD0D34 /* capstongit.app */,
+				47F3FB962BE9BB1200DD0D34 /* capstongitTests.xctest */,
+				47F3FBA02BE9BB1200DD0D34 /* capstongitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47F3FB872BE9BB1100DD0D34 /* capstongit */ = {
+			isa = PBXGroup;
+			children = (
+				47F3FB882BE9BB1100DD0D34 /* capstongitApp.swift */,
+				47F3FB8A2BE9BB1100DD0D34 /* ContentView.swift */,
+				47F3FB8C2BE9BB1200DD0D34 /* Assets.xcassets */,
+				47F3FB912BE9BB1200DD0D34 /* capstongit.entitlements */,
+				47F3FB8E2BE9BB1200DD0D34 /* Preview Content */,
+			);
+			path = capstongit;
+			sourceTree = "<group>";
+		};
+		47F3FB8E2BE9BB1200DD0D34 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				47F3FB8F2BE9BB1200DD0D34 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		47F3FB992BE9BB1200DD0D34 /* capstongitTests */ = {
+			isa = PBXGroup;
+			children = (
+				47F3FB9A2BE9BB1200DD0D34 /* capstongitTests.swift */,
+			);
+			path = capstongitTests;
+			sourceTree = "<group>";
+		};
+		47F3FBA32BE9BB1200DD0D34 /* capstongitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47F3FBA42BE9BB1200DD0D34 /* capstongitUITests.swift */,
+				47F3FBA62BE9BB1200DD0D34 /* capstongitUITestsLaunchTests.swift */,
+			);
+			path = capstongitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47F3FB842BE9BB1100DD0D34 /* capstongit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47F3FBAA2BE9BB1200DD0D34 /* Build configuration list for PBXNativeTarget "capstongit" */;
+			buildPhases = (
+				47F3FB812BE9BB1100DD0D34 /* Sources */,
+				47F3FB822BE9BB1100DD0D34 /* Frameworks */,
+				47F3FB832BE9BB1100DD0D34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = capstongit;
+			productName = capstongit;
+			productReference = 47F3FB852BE9BB1100DD0D34 /* capstongit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47F3FB952BE9BB1200DD0D34 /* capstongitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47F3FBAD2BE9BB1200DD0D34 /* Build configuration list for PBXNativeTarget "capstongitTests" */;
+			buildPhases = (
+				47F3FB922BE9BB1200DD0D34 /* Sources */,
+				47F3FB932BE9BB1200DD0D34 /* Frameworks */,
+				47F3FB942BE9BB1200DD0D34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47F3FB982BE9BB1200DD0D34 /* PBXTargetDependency */,
+			);
+			name = capstongitTests;
+			productName = capstongitTests;
+			productReference = 47F3FB962BE9BB1200DD0D34 /* capstongitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47F3FB9F2BE9BB1200DD0D34 /* capstongitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47F3FBB02BE9BB1200DD0D34 /* Build configuration list for PBXNativeTarget "capstongitUITests" */;
+			buildPhases = (
+				47F3FB9C2BE9BB1200DD0D34 /* Sources */,
+				47F3FB9D2BE9BB1200DD0D34 /* Frameworks */,
+				47F3FB9E2BE9BB1200DD0D34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47F3FBA22BE9BB1200DD0D34 /* PBXTargetDependency */,
+			);
+			name = capstongitUITests;
+			productName = capstongitUITests;
+			productReference = 47F3FBA02BE9BB1200DD0D34 /* capstongitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47F3FB7D2BE9BB1100DD0D34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					47F3FB842BE9BB1100DD0D34 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					47F3FB952BE9BB1200DD0D34 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 47F3FB842BE9BB1100DD0D34;
+					};
+					47F3FB9F2BE9BB1200DD0D34 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 47F3FB842BE9BB1100DD0D34;
+					};
+				};
+			};
+			buildConfigurationList = 47F3FB802BE9BB1100DD0D34 /* Build configuration list for PBXProject "capstongit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47F3FB7C2BE9BB1100DD0D34;
+			productRefGroup = 47F3FB862BE9BB1100DD0D34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47F3FB842BE9BB1100DD0D34 /* capstongit */,
+				47F3FB952BE9BB1200DD0D34 /* capstongitTests */,
+				47F3FB9F2BE9BB1200DD0D34 /* capstongitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47F3FB832BE9BB1100DD0D34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F3FB902BE9BB1200DD0D34 /* Preview Assets.xcassets in Resources */,
+				47F3FB8D2BE9BB1200DD0D34 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F3FB942BE9BB1200DD0D34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F3FB9E2BE9BB1200DD0D34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47F3FB812BE9BB1100DD0D34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F3FB8B2BE9BB1100DD0D34 /* ContentView.swift in Sources */,
+				47F3FB892BE9BB1100DD0D34 /* capstongitApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F3FB922BE9BB1200DD0D34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F3FB9B2BE9BB1200DD0D34 /* capstongitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F3FB9C2BE9BB1200DD0D34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F3FBA72BE9BB1200DD0D34 /* capstongitUITestsLaunchTests.swift in Sources */,
+				47F3FBA52BE9BB1200DD0D34 /* capstongitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47F3FB982BE9BB1200DD0D34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47F3FB842BE9BB1100DD0D34 /* capstongit */;
+			targetProxy = 47F3FB972BE9BB1200DD0D34 /* PBXContainerItemProxy */;
+		};
+		47F3FBA22BE9BB1200DD0D34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47F3FB842BE9BB1100DD0D34 /* capstongit */;
+			targetProxy = 47F3FBA12BE9BB1200DD0D34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		47F3FBA82BE9BB1200DD0D34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47F3FBA92BE9BB1200DD0D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		47F3FBAB2BE9BB1200DD0D34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = capstongit/capstongit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"capstongit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = capstongit.capstongit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		47F3FBAC2BE9BB1200DD0D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = capstongit/capstongit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"capstongit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = capstongit.capstongit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		47F3FBAE2BE9BB1200DD0D34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = capstongit.capstongitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/capstongit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/capstongit";
+			};
+			name = Debug;
+		};
+		47F3FBAF2BE9BB1200DD0D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = capstongit.capstongitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/capstongit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/capstongit";
+			};
+			name = Release;
+		};
+		47F3FBB12BE9BB1200DD0D34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = capstongit.capstongitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = capstongit;
+			};
+			name = Debug;
+		};
+		47F3FBB22BE9BB1200DD0D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = capstongit.capstongitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = capstongit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47F3FB802BE9BB1100DD0D34 /* Build configuration list for PBXProject "capstongit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F3FBA82BE9BB1200DD0D34 /* Debug */,
+				47F3FBA92BE9BB1200DD0D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47F3FBAA2BE9BB1200DD0D34 /* Build configuration list for PBXNativeTarget "capstongit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F3FBAB2BE9BB1200DD0D34 /* Debug */,
+				47F3FBAC2BE9BB1200DD0D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47F3FBAD2BE9BB1200DD0D34 /* Build configuration list for PBXNativeTarget "capstongitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F3FBAE2BE9BB1200DD0D34 /* Debug */,
+				47F3FBAF2BE9BB1200DD0D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47F3FBB02BE9BB1200DD0D34 /* Build configuration list for PBXNativeTarget "capstongitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F3FBB12BE9BB1200DD0D34 /* Debug */,
+				47F3FBB22BE9BB1200DD0D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47F3FB7D2BE9BB1100DD0D34 /* Project object */;
+}
