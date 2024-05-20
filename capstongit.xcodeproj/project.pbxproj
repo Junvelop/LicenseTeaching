@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		471FD2372BFA4D7000BA28D6 /* automelee.gif in Resources */ = {isa = PBXBuildFile; fileRef = 471FD2362BFA4D7000BA28D6 /* automelee.gif */; };
+		471FD2392BFB23C400BA28D6 /* Gnake.gif in Resources */ = {isa = PBXBuildFile; fileRef = 471FD2382BFB23C400BA28D6 /* Gnake.gif */; };
 		47F3FB892BE9BB1100DD0D34 /* capstongitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F3FB882BE9BB1100DD0D34 /* capstongitApp.swift */; };
 		47F3FB8B2BE9BB1100DD0D34 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F3FB8A2BE9BB1100DD0D34 /* ContentView.swift */; };
 		47F3FB8D2BE9BB1200DD0D34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47F3FB8C2BE9BB1200DD0D34 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		471FD2362BFA4D7000BA28D6 /* automelee.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = automelee.gif; sourceTree = "<group>"; };
+		471FD2382BFB23C400BA28D6 /* Gnake.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Gnake.gif; sourceTree = "<group>"; };
 		47F3FB852BE9BB1100DD0D34 /* capstongit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = capstongit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47F3FB882BE9BB1100DD0D34 /* capstongitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = capstongitApp.swift; sourceTree = "<group>"; };
 		47F3FB8A2BE9BB1100DD0D34 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,9 +76,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		471FD2342BFA4D3100BA28D6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		471FD2352BFA4D5B00BA28D6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				471FD2382BFB23C400BA28D6 /* Gnake.gif */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		47F3FB7C2BE9BB1100DD0D34 = {
 			isa = PBXGroup;
 			children = (
+				471FD2342BFA4D3100BA28D6 /* Resources */,
 				47F3FB872BE9BB1100DD0D34 /* capstongit */,
 				47F3FB992BE9BB1200DD0D34 /* capstongitTests */,
 				47F3FBA32BE9BB1200DD0D34 /* capstongitUITests */,
@@ -95,6 +115,8 @@
 		47F3FB872BE9BB1100DD0D34 /* capstongit */ = {
 			isa = PBXGroup;
 			children = (
+				471FD2362BFA4D7000BA28D6 /* automelee.gif */,
+				471FD2352BFA4D5B00BA28D6 /* Resources */,
 				47F3FB882BE9BB1100DD0D34 /* capstongitApp.swift */,
 				47F3FB8A2BE9BB1100DD0D34 /* ContentView.swift */,
 				47F3FB8C2BE9BB1200DD0D34 /* Assets.xcassets */,
@@ -234,7 +256,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				47F3FB902BE9BB1200DD0D34 /* Preview Assets.xcassets in Resources */,
+				471FD2372BFA4D7000BA28D6 /* automelee.gif in Resources */,
 				47F3FB8D2BE9BB1200DD0D34 /* Assets.xcassets in Resources */,
+				471FD2392BFB23C400BA28D6 /* Gnake.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
