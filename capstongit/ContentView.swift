@@ -18,11 +18,6 @@ struct GIFImageView: NSViewRepresentable {
             // 이미지의 크기를 조절하여 화면의 1/200을 차지하도록 함
             nsView.frame = CGRect(x: 0, y: 0, width: gifImage.size.width / 200, height: gifImage.size.height / 200)
         }
-        return imageView
-    }
-
-    func updateNSView(_ nsView: NSImageView, context: Context) {
-        // 업데이트 로직은 여기서 처리합니다.
     }
 }
 
