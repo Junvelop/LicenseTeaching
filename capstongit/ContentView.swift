@@ -8,17 +8,22 @@ struct GIFImageView: NSViewRepresentable {
     func makeNSView(context: Context) -> NSImageView {
         let imageView = NSImageView()
         imageView.imageScaling = .scaleProportionallyUpOrDown
-        if let gifUrl = Bundle.main.url(forResource: gifName, withExtension: "gif"),
-           let gifImage = NSImage(contentsOf: gifUrl) {
-            imageView.image = gifImage
-        }
         return imageView
     }
 
     func updateNSView(_ nsView: NSImageView, context: Context) {
-        // 업데이트 로직은 여기서 처리합니다.
+        if let gifUrl = Bundle.main.url(forResource: gifName, withExtension: "gif"),
+           let gifImage = NSImage(contentsOf: gifUrl) {
+            nsView.image = gifImage
+            // 이미지의 크기를 조절하여 화면의 1/200을 차지하도록 함
+            nsView.frame = CGRect(x: 0, y: 0, width: gifImage.size.width / 200, height: gifImage.size.height / 200)
+        }
     }
 }
+
+
+
+
 
 struct ContentView: View {
     @State private var currentPage = 1
@@ -202,7 +207,7 @@ struct FourthPage: View {
             Spacer()
             
             Button(action: {
-                self.currentPage = 6
+                self.currentPage = 1
             }) {
                 Text("Go back to First Page")
                     .padding(10)
@@ -283,28 +288,28 @@ struct SixPage: View {
             Text("Snake")
                 .font(.largeTitle)
                 .padding()
-
+            
             Spacer()
             
             GeometryReader { geometry in
                 HStack(spacing: 20) { // 이미지와 텍스트를 수평으로 나열하는 HStack
                     GIFImageView(gifName: "Gnake")
-                        .frame(width: geometry.size.width / 2, height: geometry.size.height / 2) // 화면의 절반 크기로 설정
-                        .padding(.leading, 10) // 왼쪽 패딩 추가
-
+                    //  .frame(width: geometry.size.width / 200, height: geometry.size.height) // 이미지의 크기를 조절하여 화면의 1/200을 차지하도록 함
+                    //   .aspectRatio(contentMode: .fit) // 이미지가 잘리지 않고 비율 유지
+                    
                     VStack(alignment: .leading, spacing: 10) { // 텍스트를 위로 정렬하고 간격을 조절하는 VStack
                         Text("""
                         C-Dogs SDL 프로젝트는 고전적인 탑다운 슈팅 게임으로, 최대 4명의 플레이어가 협동 및 대전 모드로 즐길 수 있습니다. 플레이어 커스터마이징, 다양한 무기, 100개 이상의 사용자 제작 캠페인을 특징으로 합니다. 이 게임은 원작 C-Dogs의 향상된 포트로, 개선된 그래픽, 멀티플레이어 지원, AI, 모드 가능성, 새로운 캠페인을 제공합니다.
-
+                        
                         이 프로젝트의 코드는 GPL-2.0 라이선스 및 BSD 2조항 라이선스 하에 제공되며, 에셋은 CC0, CC-BY, CC-BY-SA 등의 다양한 라이선스 조건을 따릅니다.
                         """)
                         .font(.system(size: 14)) // 텍스트 폰트 크기 설정
                         .padding()
+                        .frame(maxWidth: .infinity, alignment: .leading) // 텍스트가 가능한 최대 너비를 가지도록 하고, 좌측 정렬
                     }
-                    .frame(maxWidth: .infinity) // 텍스트가 가능한 최대 너비를 가지도록 함
                 }
             }
-
+            
             Spacer()
             
             Button(action: {
@@ -319,8 +324,7 @@ struct SixPage: View {
             }
             .padding(.bottom, 20)
         }
-        .navigationTitle("Fifth Page")
+        .navigationTitle("Six Page")
     }
+    
 }
-
-
