@@ -307,6 +307,7 @@ struct SixPage: View {
                         .padding()
                         .frame(maxWidth: .infinity, alignment: .leading) // 텍스트가 가능한 최대 너비를 가지도록 하고, 좌측 정렬
                     }
+                    .frame(maxWidth: .infinity) // 텍스트가 가능한 최대 너비를 가지도록 함
                 }
             }
             
@@ -328,3 +329,5 @@ struct SixPage: View {
     }
     
 }
+
+
