@@ -18,6 +18,11 @@ struct GIFImageView: NSViewRepresentable {
             // 이미지의 크기를 조절하여 화면의 1/200을 차지하도록 함
             nsView.frame = CGRect(x: 0, y: 0, width: gifImage.size.width / 200, height: gifImage.size.height / 200)
         }
+        return imageView
+    }
+
+    func updateNSView(_ nsView: NSImageView, context: Context) {
+        // 업데이트 로직은 여기서 처리합니다.
     }
 }
 
@@ -307,6 +312,7 @@ struct SixPage: View {
                         .padding()
                         .frame(maxWidth: .infinity, alignment: .leading) // 텍스트가 가능한 최대 너비를 가지도록 하고, 좌측 정렬
                     }
+                    .frame(maxWidth: .infinity) // 텍스트가 가능한 최대 너비를 가지도록 함
                 }
             }
             
@@ -328,3 +334,5 @@ struct SixPage: View {
     }
     
 }
+
+
