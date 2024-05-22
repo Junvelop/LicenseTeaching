@@ -14,7 +14,16 @@ struct ThirdPage: View {
         VStack {
             Text("This is the Third Page")
                 .font(.largeTitle)
+            
             Spacer()
+            
+            Image("superproductivity") // 이미지 삽입
+                .resizable()
+                .scaledToFit()
+                .frame(width: 200, height: 200) // 원하는 크기로 조정
+            
+            Spacer()
+            
             Button(action: {
                 self.currentPage = 1
             }) {
@@ -30,3 +39,4 @@ struct ThirdPage: View {
         .navigationTitle("Third Page")
     }
 }
+

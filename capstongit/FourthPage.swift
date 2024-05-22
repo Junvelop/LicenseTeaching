@@ -32,7 +32,7 @@ struct FourthPage: View {
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 150, height: 350) // 이미지 크기 조정
                     .onTapGesture {
-                        self.currentPage = 1 // 뉴 페이지로 전환
+                        self.currentPage = 6 // 뉴 페이지로 전환
                     }
                 
                 Text("Snake")
@@ -46,7 +46,7 @@ struct FourthPage: View {
             Spacer()
             
             Button(action: {
-                self.currentPage = 6
+                self.currentPage = 1
             }) {
                 Text("Go back to First Page")
                     .padding(10)
